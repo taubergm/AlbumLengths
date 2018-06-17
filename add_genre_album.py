@@ -16,7 +16,7 @@ import pprint
 import re
 
 #client_credentials_manager = SpotifyClientCredentials()
-client_credentials_manager = SpotifyClientCredentials(client_id="0c2ec7f161354a3a9b9ada95b72a1982", client_secret="d986f32ea3f74f1e9040482abb86849d")
+client_credentials_manager = SpotifyClientCredentials(client_id="your_id_here", client_secret="your_secret_here")
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 sp.trace=True
 
